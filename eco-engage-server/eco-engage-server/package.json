@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "scripts": {
+    "server": "npx json-server db.json -p $PORT -H 0.0.0.0"
+  }
+}
